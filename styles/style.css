@@ -1,0 +1,29 @@
+body{
+    background: linen;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    padding: 30px 100px 0px 0px;
+}
+
+h1, h2, p{
+    text-align: center;
+    color: black;
+}
+
+a{
+    font-size: 20px;
+    color: darkgreen;
+    text-transform: uppercase;
+}
