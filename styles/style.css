@@ -14,7 +14,10 @@ li{
 }
 
 img{
-    padding: 30px 100px 0px 0px;
+    margin: 20px 150px 0px 0px;
+    border-radius: 30px;
+    border-style: ridge;
+    border-color: black;
 }
 
 h1, h2, p{
@@ -26,4 +29,10 @@ a{
     font-size: 20px;
     color: darkgreen;
     text-transform: uppercase;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
